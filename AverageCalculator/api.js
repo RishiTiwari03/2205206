@@ -1,7 +1,7 @@
 const express = require("express");
 const axios = require("axios");
 
-const apiKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiZXhwIjoxNzQzNjAzNTE2LCJpYXQiOjE3NDM2MDMyMTYsImlzcyI6IkFmZm9yZG1lZCIsImp0aSI6ImY5ZjUzMGZlLThmMGQtNDI0Mi05YzdkLTQ2MWJhNWIzYWM4ZSIsInN1YiI6IjIyMDUyMDZAa2lpdC5hYy5pbiJ9LCJlbWFpbCI6IjIyMDUyMDZAa2lpdC5hYy5pbiIsIm5hbWUiOiJkZXZhbnNoIHRpd2FyaSIsInJvbGxObyI6IjIyMDUyMDYiLCJhY2Nlc3NDb2RlIjoibndwd3JaIiwiY2xpZW50SUQiOiJmOWY1MzBmZS04ZjBkLTQyNDItOWM3ZC00NjFiYTViM2FjOGUiLCJjbGllbnRTZWNyZXQiOiJmcVF0RFNKRkVUcVV0RkZoIn0.Mxt_TiOexm7zIjGZEsPNZPwTXf8vvLAKbOHa7oHIBWE';
+const apiKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiZXhwIjoxNzQzNjA0MjEzLCJpYXQiOjE3NDM2MDM5MTMsImlzcyI6IkFmZm9yZG1lZCIsImp0aSI6ImY5ZjUzMGZlLThmMGQtNDI0Mi05YzdkLTQ2MWJhNWIzYWM4ZSIsInN1YiI6IjIyMDUyMDZAa2lpdC5hYy5pbiJ9LCJlbWFpbCI6IjIyMDUyMDZAa2lpdC5hYy5pbiIsIm5hbWUiOiJkZXZhbnNoIHRpd2FyaSIsInJvbGxObyI6IjIyMDUyMDYiLCJhY2Nlc3NDb2RlIjoibndwd3JaIiwiY2xpZW50SUQiOiJmOWY1MzBmZS04ZjBkLTQyNDItOWM3ZC00NjFiYTViM2FjOGUiLCJjbGllbnRTZWNyZXQiOiJmcVF0RFNKRkVUcVV0RkZoIn0.0bXkaPPw8nVElqTJy6mv1tcyqd8AtkSdPmegu8mDcd8';
 
 const app = express();
 const portNumber = 3000;
@@ -15,7 +15,7 @@ const apiUrls = {
     p: "http://20.244.56.144/evaluation-service/primes",
     f: "http://20.244.56.144/evaluation-service/fibo",
     e: "http://20.244.56.144/evaluation-service/even",
-    r: "http://20.244.56.144/evaluation-service/random"
+    r: "http://20.244.56.144/evaluation-service/rand"
 };
 
 const numberStorageData = {
